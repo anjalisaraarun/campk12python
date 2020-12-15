@@ -1,7 +1,7 @@
 import turtle
 
 fj = turtle.Turtle()
-fj.color('red','yellow')
+fj.color('blue','yellow')
 
 fj.begin_fill()
 fj.speed(100)
