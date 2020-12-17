@@ -1,17 +1,19 @@
 import turtle
 
+
 a =  turtle.Turtle()
+
 #assigh
 
-a.speed(0.5)
+a.speed(.001)
 a.pensize(1)   
-turtle.bgcolor('green')
+turtle.bgcolor('cyan')
 
 #square
 
-def square(pen,color,size):
+def square(pen,color,size, row, col):
     pen.penup()
-    pen.goto(-250,-250)
+    pen.goto(row,col)
     pen.pendown()
     pen.fillcolor(color)
     pen.pencolor(color)
@@ -22,16 +24,26 @@ def square(pen,color,size):
         pen.left(90)
     pen.end_fill()
 
-
-for i in range(8):
-    for j in range(8):
+cell = 8                                                                                                                  
+row = -350
+jump = 75
+for i in range(cell):
+    
+    col = -360
+    for j in range(cell):
         if (i + j) % 2 == 0 :
             scolor = 'black'
         else:
             scolor = 'white'
         a.penup()
-        a.goto((i - 8) * 80 , (j - 8) * 80)
-        square(a,scolor,80)
+        
+        col = col + jump
+
+        print(row, col)
+        a.goto(row, col)
+        square(a,scolor,jump, row, col)
+
+    row = row + jump
 
 
 
