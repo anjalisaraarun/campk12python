@@ -12,30 +12,4 @@ for i in range(100):
 fj.end_fill()
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 turtle.done()

@@ -7,3 +7,7 @@ a = list(colors)
 a [3] = 'black'
 colors = tuple (a)
 print(a)
+s = list(colors)
+s.remove ('blue')
+colors = tuple (s)
+print(s)
