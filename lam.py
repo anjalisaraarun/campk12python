@@ -6,4 +6,3 @@ mytriple = myfunc(3)
 
 print(mydoubler(11))
 print(mytriple(10))
-
