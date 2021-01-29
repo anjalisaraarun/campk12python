@@ -1,8 +1,7 @@
-def myfunc(n):
-return lambda a : a * n
+def div(a,s):
+    res = a / s
+    print (res)
+div(10,2)
 
-mydoubler = myfunc(2)
-mytriple = myfunc(3)
-
-print(mydoubler(11))
-print(mytriple(10))
+d = lambda a,s:a / s
+print (d(12,3))

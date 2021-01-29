@@ -28,9 +28,10 @@ ranges = 8
 for i in range(ranges):
     for j in range(ranges):
         if (i + j) % 2 == 0 :
-            scolor = 'black'
-        else:
-            scolor = 'white'
+            scolor = 'orange'
+        else: 
+            scolor = 'blue'
+            
         a.penup()
         a.goto((i - 4) * size , (j - 4) * size)
         square(a,scolor,size)
