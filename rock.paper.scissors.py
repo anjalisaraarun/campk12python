@@ -140,3 +140,4 @@ elif you_win == AI_win :
     print('Tie game')
 else:
     print ('You win')
+print('You choose rock' + str (Rcount) + 'You choose paper' + str (Pcount) + 'You choose scissors' + str (Scount))
