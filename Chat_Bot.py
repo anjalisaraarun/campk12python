@@ -10,7 +10,7 @@ angry = ['please do not be angry','what made you angry cheer up','hope you cheer
 
 while True:
     print('How are you feeling ?')
-    mood = input('Press 1 if you are Happy , 2 if you are Sad and three if you are Angry ')
+    mood = ('Press 1 if you are Happy , 2 if you are Sad and three if you are Angry ')
     if mood == '1' :
         print(random.choice(happy))
     elif mood =='2':

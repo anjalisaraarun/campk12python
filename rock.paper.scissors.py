@@ -109,6 +109,7 @@ while player_pic !='quit' :
         elif CC == 'paper':
             print(CC)
             print('Tie game')
+            tie = tie + 1
         elif CC == 'rock':
             print(CC)
             print('Bot lost and you won')
@@ -125,6 +126,7 @@ while player_pic !='quit' :
         elif CC == 'scissors':
             print(CC)
             print('Tie game')
+            tie = tie + 1
         elif CC == 'paper':
             print(CC)
             print('Bot lost and you won')
@@ -140,4 +142,6 @@ elif you_win == AI_win :
     print('Tie game')
 else:
     print ('You win')
-print('You choose rock' + str (Rcount) + 'You choose paper' + str (Pcount) + 'You choose scissors' + str (Scount))
+print('Rock = ', Rtime )
+print('Paper = ', Ptime  )
+print('Scissors = ', Stime  )

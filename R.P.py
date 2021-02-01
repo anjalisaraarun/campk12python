@@ -8,7 +8,7 @@ def user_choice():
     user_choice = input ('Pick rock paper or scissors..')
     if user_choice in['rock','ROCK','Rock','rOCK','RoCk','r','R','ROck','roCK','RocK','rOCk'] :
         user_choice = 'rock'
-    elif user_choice in ['paper','PAPER','Paper','pAPER','PAper','paPer','pAPEr','PapeR','paPer','pAper','s']:
+    elif user_choice in ['paper','PAPER','Paper','pAPER','PAper','paPer','pAPEr','PapeR','paPer','pAper','p']:
         user_choice = 'paper'
     elif user_choice in['scissors','SCISSORS','SCISsors','scisSORS','sCISSORs','Scissors','scissSrs','S','s']:
         user_choice = 'scissors'
